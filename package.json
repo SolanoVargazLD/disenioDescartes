@@ -1,0 +1,23 @@
+{
+  "name": "proyectodescartes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolanoVargazLD/disenioDescartes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolanoVargazLD/disenioDescartes/issues"
+  },
+  "homepage": "https://github.com/SolanoVargazLD/disenioDescartes#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
