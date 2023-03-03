@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "css",
+    "exec": "tailwindcss build styleTailwind.css -o src/style/style.css"
+  }
+  
