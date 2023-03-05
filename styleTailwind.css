@@ -4,6 +4,6 @@
 
 @layer components{
     .navItems{
-        @apply text-white text-base dark:text-white hover:underline;
+        @apply text-white text-base dark:text-white hover:underline font-semibold;
     }
 }
