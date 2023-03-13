@@ -12,15 +12,173 @@
 
         <div class="flex flex-col w-full lg:w-10/12 mx-auto">
             <div class="float-left text-center  font-bold italic bg-[#223266]">
-                <h2 class="text-white text-xl">Directorio</h2>
+                <h2 class="text-white text-xl">Normatividad</h2>
             </div>
-
+            <br>
             <!-- ? Administracion-->
-            <div class="w-11/12 lg:w-10/12 mx-auto text-justify lg:font-bold italic text-[#223266]">
+            <div class=" flex flex-col lg:w-full mx-auto text-justify lg:font-bold italic text-[#223266]">
+                <div class="flex flex-row w-full h-1/2 pt-12 items-center">
+                    <div class="w-full lg:w-1/2 h-full text-center lg:whitespace-nowrap ">
+                        <a href="#" onclick="myFunction()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Estatuto General de la Universidad de Ciencia y Tecnología Descartes
+                            </div>
+                        </a>
+                        <div id="myDIV" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/1_EstatutoGeneraldelaUniversidaddeCienciayTecnologíaDescartes.pdf"></object>
+                        </div>
+                        <br>
+                        <a href="#" onclick="myFunction2()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Reglamento Académico para estudios de Licenciatura
+                            </div>
+                        </a>
+                        <div id="myDIV2" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/2_ReglamentoAcadémicoparaestudiosdeLicenciatura.pdf"></object>
+                        </div>
+                        <br>
+                        <a href="#" onclick="myFunction3()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Reglamento General de Estudios de Posgrado
+                            </div>
+                        </a>
+                        <div id="myDIV3" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/3_ReglamentoGeneraldeEstudiosdePosgrado.pdf"></object>
+                        </div>
+                        <!-- ? 4 -->
+                        <br>
+                        <a href="#" onclick="myFunction4()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12  rounded-2xl ">
+                                Reglamento Interno del Bachillerato UNAM-Descartes
+                            </div>
+                        </a>
+                        <div id="myDIV4" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/4_ReglamentoInternodelBachilleratoUNAM-Descartes.pdf"></object>
+                        </div>
+                        <!-- ? 5 -->
+                        <br>
+                        <a href="#" onclick="myFunction5()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Reglamento del Servicio Social Universitario
+                            </div>
+                        </a>
+                        <div id="myDIV5" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/5_ReglamentodelServicioSocialUniversitario.pdf"></object>
+                        </div>
+                        <!-- ? 6 -->
+                        <br>
+                        <a href="#" onclick="myFunction6()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Reglamento Interno de la Licenciatura en Entrenamiento Deportivo
+                            </div>
+                        </a>
+                        <div id="myDIV6" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/6_ReglamentoInternodelaLicenciaturaenEntrenamientoDeportivo.pdf"></object>
+                        </div>
+                        <!-- ? 7 -->
+                        <br>
+                        <a href="#" onclick="myFunction7()">
+                            <div class="bg-[#C0D0EF] flex items-center justify-center h-12 rounded-2xl ">
+                                Reglamento Interno de la Escuela de Ingeniería Civil UNAM-Descartes
+                            </div>
+                        </a>
+                        <div id="myDIV7" class="w-full hidden">
+                            <br>
+                            <object class="w-full lg:w-[1000px] h-[500px] " type="application/pdf" data="../assets/Normatividad/7_ReglamentoInternodelaEscueladeIngenieríaCivilUNAM-Descartes.pdf"></object>
+                        </div>
+                    </div>
 
+                    <div class="w-1/2 h-full hidden lg:block">
+                        <div id="intento" class="flex justify-center items-center">
+                            <img src="../assets/Conocenos/imgEscuela.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <br>
             </div>
         </div>
 
+        <script>
+
+            function imagen() {
+                var y = document.getElementById("intento");
+                if (y.style.display === "none") {
+                    y.style.display = "block";
+                } else {
+                    y.style.display = "none";
+                }
+            }
+
+            function myFunction() {
+                var x = document.getElementById("myDIV");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction2() {
+                var x = document.getElementById("myDIV2");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction3() {
+                var x = document.getElementById("myDIV3");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction4() {
+                var x = document.getElementById("myDIV4");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction5() {
+                var x = document.getElementById("myDIV5");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction6() {
+                var x = document.getElementById("myDIV6");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction7() {
+                var x = document.getElementById("myDIV7");
+                imagen();
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
 
         <!-- Regresar -->
         <a class="text-green-500" href="../index.html">
